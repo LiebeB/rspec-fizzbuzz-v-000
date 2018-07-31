@@ -11,7 +11,7 @@ def fizzbuzz(int)
     "Buzz" # Go buzz
   elsif int % 3 == 0 # if the number int is divisible by 3
   "Fizz" # Go fizz
-  else #
-    "int"
+else # if the number is not divisible by 3 or 5
+    "nil" # return nil
   end
 end
